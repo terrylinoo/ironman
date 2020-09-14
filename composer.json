@@ -1,0 +1,27 @@
+{
+    "name": "ithelp/ironman",
+    "description": "這是第 12 屆 IT 邦幫忙鐵人賽的範例啦。",
+    "keywords": ["ironman", "game"],
+    "homepage": "https://github.com/terrylinoo/ironman",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Terry Lin",
+            "email": "contact@terryl.in",
+            "homepage": "https://terryl.in",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ItHelp\\": "src"
+        }
+    }
+}
